@@ -1,0 +1,102 @@
+
+/* login page  */
+
+.auth-container{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(0 0 0 / 68%);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 6%;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.auth-container h2{
+    font-size: 35px;
+}
+.container-elements{
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.container-elements input{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.container-elements p{
+    font-size: 20px;
+}
+.container-elements button{
+    font-size: 15px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+
+/* add shop page  */
+.owner-background{
+    background-image: url(../images/laptop4.jpg);
+    background-size: cover;
+    height: 102vh;
+    margin-top: -11%;
+}
+.form-container{
+    font-family: Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    margin: auto;
+    width: 25%;
+    margin-top: 50px;
+}
+/* .heading{
+    margin-top: 50%;
+} */
+.form-container h2{
+    font-size: 0px;
+}
+.form-addshop{
+    margin-top: 45%;
+    background-color: rgb(0 0 0 / 68%);
+    border-radius: 10px;
+    width: 130%;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.input-addshop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.input-addshop label{
+    flex-grow: 1;
+}
+.input-addshop input{
+    margin-right: 100px;
+}
+.input-addshop textarea{
+    margin-right: 155px;
+}
+.button-addshop{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button-addshop input{
+    font-size: 15px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+
+/* add-laptops */

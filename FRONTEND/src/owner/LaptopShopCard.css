@@ -1,0 +1,92 @@
+
+.laptop-list-container {
+  display: flex;
+}
+
+.laptop-list {
+  flex: 1;
+}
+
+.another-list {
+  flex: 1;
+}
+.lap-list-background{
+  background-image: url(../images/laptop4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 102vh;
+  margin-top: -11%;
+}
+.laptop-card {
+  margin-top: 10%;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+.shop-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .shop-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .shop-photo {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .laptops-container {
+    margin-top: 30px;
+  }
+  
+  .laptops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  
+  
+  .laptop-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .lapt-lis{
+    margin-right: 100px;
+  }
+  .lapt-lis h3{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: -50px;
+  }
+  .lapts-list{
+    font-family: Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px;
+    margin-top: 8%;
+    width: 150%;
+  }
+
+  .lapts-card{
+    background-color: rgba(0, 0, 0, 0.953);
+    color: aliceblue;
+    margin:20px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+  }
+  .lapts-card button{
+    margin: 0;
+    width: 150px;
+  }
